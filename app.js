@@ -6,4 +6,4 @@ const PORT = 3001;
 app.use('/pages', router);
 app.listen(PORT, () => {
     console.log(`Expmple app listening on port ${PORT}`);
-})
+});
